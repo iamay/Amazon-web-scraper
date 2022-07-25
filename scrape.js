@@ -36,8 +36,8 @@ async function scrape() {
     client.messages
       .create({
         body: `The price of ${product.name} went below ${price}. Purchase it at ${product.link}`,
-        messagingServiceSid: 'MG6869aa64a0960b9473de569d50ef2e17',      
-        to: "+916006296494",
+        messagingServiceSid: '686XXXXXXXXXXXXXXXXXXXXe17',      
+        to: "+916XXXXX",
       })
       .then((message) => {
         console.log(message);
